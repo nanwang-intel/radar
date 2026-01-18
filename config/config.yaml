@@ -101,6 +101,10 @@ rss:
       url: "https://finance.yahoo.com/news/rssindex"
       enabled: false                  # 禁用
 
+    - id: "Semianalysis"
+      name: "Semianalysis"
+      url: "https://www.semianalysis.com/feed"
+
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
