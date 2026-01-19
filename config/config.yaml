@@ -102,26 +102,7 @@ platforms:
     - id: "producthunt"
       name: "ProductHunt"
   
-    # === 其他/工具类 ===
-    - id: "chongbuluo"
-      name: "虫部落"
-  
-     NewsNow的信息源在11月20日更新：
-  
-     - id: "tencent-hot"
-      name: "腾讯新闻 综合早报"
-      
-     #- id: "cls-telegraph"
-      #name: "财联社 电报"
-      
-     - id: "cls-depth"
-      name: "财联社 深度"
-      
-     - id: "fastbull-express"
-      name: "法布财经 快讯"
-      
-     #- id: "fastbull-news"
-      #name: "法布财经 头条"  
+
   
   # ===============================================================
   # 3. 数据源 - RSS 订阅
@@ -175,9 +156,6 @@ rss:
       name: "Semianalysis"
       url: "https://www.semianalysis.com/feed"
 
-    - id: "MIT-news"
-      name: "MIT-News"
-      url: "http://news.mit.edu/rss/topic/artificial-intelligence2"
 
     # 自定义源示例
     # - id: "custom-feed"
