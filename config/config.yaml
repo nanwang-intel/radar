@@ -31,40 +31,40 @@ platforms:
 
     - id: "toutiao"
       name: "今日头条"
-    - id: "baidu"
-      name: "百度热搜"
+    #- id: "baidu"
+      #name: "百度热搜"
     - id: "thepaper"
       name: "澎湃新闻"
     - id: "ifeng"
       name: "凤凰网"
     - id: "cankaoxiaoxi"
       name: "参考消息"
-    - id: "sputniknewscn"
-      name: "卫星通讯社"
+    #- id: "sputniknewscn"
+      #name: "卫星通讯社"
     - id: "zaobao"
       name: "联合早报"
-    - id: "mktnews"
-      name: "MKT新闻"
-    - id: "kaopu"
-      name: "靠谱新闻"
+    #- id: "mktnews"
+      #name: "MKT新闻"
+    #- id: "kaopu"
+      #name: "靠谱新闻"
   
     # === 财经投资类 ===
     - id: "wallstreetcn-hot"
       name: "华尔街见闻 最热"
-    - id: "wallstreetcn-quick"
-      name: "华尔街见闻 快讯"
-    - id: "wallstreetcn-news"
-      name: "华尔街见闻 最新"
-    - id: "cls-hot"
-      name: "财联社热门"
+    #- id: "wallstreetcn-quick"
+      #name: "华尔街见闻 快讯"
+    #- id: "wallstreetcn-news"
+      #name: "华尔街见闻 最新"
+    #- id: "cls-hot"
+      #name: "财联社热门"
     - id: "gelonghui"
       name: "格隆汇"
     - id: "xueqiu"
       name: "雪球"
     - id: "jin10"
       name: "金十数据"
-    - id: "fastbull"
-      name: "快讯通"
+    #- id: "fastbull"
+      #name: "快讯通"
   
     # === 社交/短视频/娱乐类 ===
     - id: "weibo"
@@ -73,12 +73,12 @@ platforms:
       name: "抖音"
     - id: "bilibili-hot-search"
       name: "bilibili 热搜"
-    - id: "tieba"
-      name: "贴吧"
+    #- id: "tieba"
+      #name: "贴吧"
     - id: "zhihu"
       name: "知乎"
-    - id: "hupu"
-      name: "虎扑"
+    #- id: "hupu"
+      #name: "虎扑"
   
     # === 科技类平台 ===
     - id: "ithome"
@@ -111,8 +111,8 @@ platforms:
      - id: "tencent-hot"
       name: "腾讯新闻 综合早报"
       
-     - id: "cls-telegraph"
-      name: "财联社 电报"
+     #- id: "cls-telegraph"
+      #name: "财联社 电报"
       
      - id: "cls-depth"
       name: "财联社 深度"
@@ -120,8 +120,8 @@ platforms:
      - id: "fastbull-express"
       name: "法布财经 快讯"
       
-     - id: "fastbull-news"
-      name: "法布财经 头条"  
+     #- id: "fastbull-news"
+      #name: "法布财经 头条"  
   
   # ===============================================================
   # 3. 数据源 - RSS 订阅
@@ -171,13 +171,13 @@ rss:
       url: "https://finance.yahoo.com/news/rssindex"
       enabled: false                  # 禁用
 
-    #- id: "Semianalysis"
-      #name: "Semianalysis"
-      #url: "https://www.semianalysis.com/feed"
+    - id: "Semianalysis"
+      name: "Semianalysis"
+      url: "https://www.semianalysis.com/feed"
 
-    #- id: "MIT-news"
-      #name: "MIT-News"
-      #url: "http://news.mit.edu/rss/topic/artificial-intelligence2"
+    - id: "MIT-news"
+      name: "MIT-News"
+      url: "http://news.mit.edu/rss/topic/artificial-intelligence2"
 
     # 自定义源示例
     # - id: "custom-feed"
